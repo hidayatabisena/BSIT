@@ -66,7 +66,7 @@ struct EventRow: View {
                     .font(.subheadline)
             }
             Spacer()
-            Text("Rp\(event.price, specifier: "%.2f")")
+            Text("Rp\(event.price, specifier: "%.f")")
                 .font(.system(.callout))
         }
     }
